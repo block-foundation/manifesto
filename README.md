@@ -1,1 +1,1 @@
-# manifesto
+# Block Foundation Manifesto
