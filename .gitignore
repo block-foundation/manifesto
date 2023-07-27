@@ -24,3 +24,12 @@ manifest.json
 *.o
 *.so
 *.bin
+
+
+
+built/
+.alm/
+*error.log
+orbitdb/
+orbit/
+.ipfs/
