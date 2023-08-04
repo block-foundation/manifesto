@@ -1,10 +1,11 @@
 {
+  // General
   "editor.fontLigatures": true,
+  // Latex
   "latex-workshop.latex.outDir": "./out",
   "latex-workshop.view.pdf.viewer": "tab",
   "latex-workshop.synctex.afterBuild.enabled": true,
-
-
+  // TS + Vue
   "files.associations": {
     "*.vue": "vue"
   },
