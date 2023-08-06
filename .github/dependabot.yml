@@ -11,7 +11,7 @@ updates:
       interval: daily
       time: "09:00"
       timezone: "Europe/Amsterdam"
-    target-branch: master
+    target-branch: main
 
   - package-ecosystem: docker
     directory: /.devcontainer
@@ -19,7 +19,7 @@ updates:
       interval: daily
       time: "09:00"
       timezone: "Europe/Amsterdam"
-    target-branch: master
+    target-branch: main
 
   - package-ecosystem: "npm"
     directory: "/"
@@ -27,4 +27,4 @@ updates:
       interval: "daily"
       time: "09:00"
       timezone: "Europe/Amsterdam"
-    target-branch: master
+    target-branch: main
