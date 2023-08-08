@@ -48,7 +48,7 @@
     "chai": "^4.1.2",
     "css-loader": "~0.28.11",
     "html-webpack-plugin": "^2.29.0",
-    "interface-datastore": "^0.4.2",
+    "interface-datastore": "^8.2.4",
     "ipfs-postmsg-proxy": "^3.0.0",
     "maketypes": "^1.1.2",
     "material-design-icons-iconfont": "^3.0.3",
