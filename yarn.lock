@@ -47,7 +47,8 @@
 
 "@types/orbit-db@git+https://github.com/willemneal/types-orbit-db.git":
   version "0.19.8"
-  resolved "git+https://github.com/willemneal/types-orbit-db.git#fc721890d99651fb943656cfe51e2e56e240d979"
+  uid "81471ead1f4baf8da40dfee41def1a7523c605e8"
+  resolved "git+https://github.com/willemneal/types-orbit-db.git#81471ead1f4baf8da40dfee41def1a7523c605e8"
   dependencies:
     "@types/ipfs" "git+https://github.com/survirtual/types-ipfs.git"
 
