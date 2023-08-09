@@ -55,7 +55,7 @@
     "serviceworkers-ware": "^0.3.2",
     "stylus": "^0.54.5",
     "stylus-loader": "~3.0.2",
-    "ts-loader": "^2.3.7",
+    "ts-loader": "^9.2.1",
     "ts-vue-loader": "^1.0.1",
     "typescript": "^2.9.2",
     "vue": "^2.5.16",
