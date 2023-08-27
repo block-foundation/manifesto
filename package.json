@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@mdi/font": "^2.5.94",
-    "bs58": "^4.0.1",
+    "bs58": "^5.0.0",
     "chai": "^4.3.7",
     "css-loader": "~0.28.11",
     "html-webpack-plugin": "^2.29.0",
