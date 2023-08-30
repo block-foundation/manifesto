@@ -5775,9 +5775,9 @@ style-loader@~0.23.1:
     loader-utils "^1.1.0"
     schema-utils "^1.0.0"
 
-stylescape@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/stylescape/-/stylescape-0.0.1.tgz#8fa0a7d77659f3e7386af0f0e705236b1dd704b5"
+stylescape@^0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/stylescape/-/stylescape-0.0.11.tgz#595d1a018280452f405760b381bc1f7e4d23e1be"
 
 stylus-loader@~3.0.2:
   version "3.0.2"
