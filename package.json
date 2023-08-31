@@ -57,7 +57,7 @@
     "stylus-loader": "~3.0.2",
     "ts-loader": "^9.2.1",
     "ts-vue-loader": "^1.0.1",
-    "typescript": "^2.9.2",
+    "typescript": "^5.2.2",
     "vue": "^2.5.16",
     "vue-class-component": "^7.2.6",
     "vue-loader": "^16.3.1",
