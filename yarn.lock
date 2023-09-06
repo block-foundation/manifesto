@@ -751,9 +751,9 @@
   dependencies:
     "@types/node" "*"
 
-"@types/retry@0.12.1":
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/@types/retry/-/retry-0.12.1.tgz#d8f1c0d0dc23afad6dc16a9e993a0865774b4065"
+"@types/retry@0.12.2":
+  version "0.12.2"
+  resolved "https://registry.yarnpkg.com/@types/retry/-/retry-0.12.2.tgz#ed279a64fa438bb69f2480eda44937912bb7480a"
 
 "@types/secp256k1@^4.0.1":
   version "4.0.3"
@@ -2665,7 +2665,7 @@ event-target-shim@^5.0.0:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/event-target-shim/-/event-target-shim-5.0.1.tgz#5d4d3ebdf9583d63a5333ce2deb7480ab2b05789"
 
-eventemitter3@^4.0.4, eventemitter3@^4.0.7:
+eventemitter3@^4.0.4:
   version "4.0.7"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
 
@@ -4423,9 +4423,9 @@ libp2p-crypto@~0.12.1:
     tweetnacl "^1.0.0"
     webcrypto-shim "github:dignifiedquire/webcrypto-shim#master"
 
-libp2p@^0.46.7:
-  version "0.46.7"
-  resolved "https://registry.yarnpkg.com/libp2p/-/libp2p-0.46.7.tgz#e2703de55dff8f95a2c7aa99f7556103158aa33b"
+libp2p@^0.46.9:
+  version "0.46.9"
+  resolved "https://registry.yarnpkg.com/libp2p/-/libp2p-0.46.9.tgz#e8d996529e25a67a8f879600b46021ad72aea723"
   dependencies:
     "@achingbrain/nat-port-mapper" "^1.0.9"
     "@libp2p/crypto" "^2.0.3"
@@ -4443,7 +4443,6 @@ libp2p@^0.46.7:
     "@multiformats/mafmt" "^12.1.2"
     "@multiformats/multiaddr" "^12.1.5"
     "@multiformats/multiaddr-matcher" "^1.0.0"
-    abortable-iterator "^5.0.1"
     any-signal "^4.1.1"
     datastore-core "^9.0.1"
     delay "^6.0.0"
@@ -4465,10 +4464,10 @@ libp2p@^0.46.7:
     multiformats "^12.0.1"
     p-defer "^4.0.0"
     p-queue "^7.3.4"
-    p-retry "^5.0.0"
+    p-retry "^6.0.0"
     private-ip "^3.0.0"
     protons-runtime "^5.0.0"
-    rate-limiter-flexible "^2.3.11"
+    rate-limiter-flexible "^3.0.0"
     uint8arraylist "^2.4.3"
     uint8arrays "^4.0.6"
     wherearewe "^2.0.1"
@@ -5566,14 +5565,7 @@ p-queue@^6.0.0:
     eventemitter3 "^4.0.4"
     p-timeout "^3.2.0"
 
-p-queue@^7.2.0, p-queue@^7.3.4:
-  version "7.3.4"
-  resolved "https://registry.yarnpkg.com/p-queue/-/p-queue-7.3.4.tgz#7ef7d89b6c1a0563596d98adbc9dc404e9ed4a84"
-  dependencies:
-    eventemitter3 "^4.0.7"
-    p-timeout "^5.0.2"
-
-p-queue@^7.3.0:
+p-queue@^7.2.0, p-queue@^7.3.0, p-queue@^7.3.4:
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/p-queue/-/p-queue-7.4.0.tgz#7849ed11525daf8ff861b83ae8813b976ad490af"
   dependencies:
@@ -5584,11 +5576,11 @@ p-reduce@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/p-reduce/-/p-reduce-1.0.0.tgz#18c2b0dd936a4690a529f8231f58a0fdb6a47dfa"
 
-p-retry@^5.0.0:
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/p-retry/-/p-retry-5.1.2.tgz#c16eaee4f2016f9161d12da40d3b8b0f2e3c1b76"
+p-retry@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/p-retry/-/p-retry-6.0.0.tgz#059de483a8ff588a7a28fad5801868267c2494ef"
   dependencies:
-    "@types/retry" "0.12.1"
+    "@types/retry" "0.12.2"
     retry "^0.13.1"
 
 p-series@^1.1.0:
@@ -6311,9 +6303,9 @@ randombytes@^2.1.0:
   dependencies:
     safe-buffer "^5.1.0"
 
-rate-limiter-flexible@^2.3.11:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/rate-limiter-flexible/-/rate-limiter-flexible-2.4.2.tgz#2a219cc473f015142fd8fb599371223d730decbd"
+rate-limiter-flexible@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/rate-limiter-flexible/-/rate-limiter-flexible-3.0.0.tgz#1dba6de44d4d5a5e6494774c2ff7657e82856673"
 
 rc@^1.1.6:
   version "1.2.8"
