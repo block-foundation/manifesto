@@ -444,30 +444,30 @@
     multiformats "^12.0.1"
     uint8arrays "^4.0.6"
 
-"@libp2p/peer-record@^6.0.3":
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/@libp2p/peer-record/-/peer-record-6.0.3.tgz#d1ef401f905baf3599e331e67c76bd20cd5ad88e"
+"@libp2p/peer-record@^6.0.4":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@libp2p/peer-record/-/peer-record-6.0.4.tgz#457bc7c132f1d353b70977e44304348d2a25300d"
   dependencies:
     "@libp2p/crypto" "^2.0.3"
     "@libp2p/interface" "^0.1.2"
     "@libp2p/peer-id" "^3.0.2"
-    "@libp2p/utils" "^4.0.2"
+    "@libp2p/utils" "^4.0.3"
     "@multiformats/multiaddr" "^12.1.5"
     protons-runtime "^5.0.0"
-    uint8-varint "^1.0.2"
+    uint8-varint "^2.0.0"
     uint8arraylist "^2.4.3"
     uint8arrays "^4.0.6"
 
-"@libp2p/peer-store@^9.0.3":
-  version "9.0.3"
-  resolved "https://registry.yarnpkg.com/@libp2p/peer-store/-/peer-store-9.0.3.tgz#8aa986d7ff9b16c498bdcb4072d68148ee716e7a"
+"@libp2p/peer-store@^9.0.4":
+  version "9.0.4"
+  resolved "https://registry.yarnpkg.com/@libp2p/peer-store/-/peer-store-9.0.4.tgz#cbcd646759c7596bfb08ba5c03ce0335d61fee37"
   dependencies:
     "@libp2p/interface" "^0.1.2"
     "@libp2p/logger" "^3.0.2"
     "@libp2p/peer-collections" "^4.0.3"
     "@libp2p/peer-id" "^3.0.2"
     "@libp2p/peer-id-factory" "^3.0.3"
-    "@libp2p/peer-record" "^6.0.3"
+    "@libp2p/peer-record" "^6.0.4"
     "@multiformats/multiaddr" "^12.1.5"
     interface-datastore "^8.2.0"
     it-all "^3.0.2"
@@ -477,14 +477,15 @@
     uint8arraylist "^2.4.3"
     uint8arrays "^4.0.6"
 
-"@libp2p/utils@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@libp2p/utils/-/utils-4.0.2.tgz#6f894d5320bd233b87ada94095b2cc07a4d62f9d"
+"@libp2p/utils@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@libp2p/utils/-/utils-4.0.3.tgz#e27e46930fd0bf72fc9344127194dbff90c25d45"
   dependencies:
     "@chainsafe/is-ip" "^2.0.2"
     "@libp2p/interface" "^0.1.2"
     "@libp2p/logger" "^3.0.2"
     "@multiformats/multiaddr" "^12.1.5"
+    "@multiformats/multiaddr-matcher" "^1.0.1"
     is-loopback-addr "^2.0.1"
     it-stream-types "^2.0.1"
     private-ip "^3.0.0"
@@ -500,7 +501,7 @@
   dependencies:
     "@multiformats/multiaddr" "^12.0.0"
 
-"@multiformats/multiaddr-matcher@^1.0.0":
+"@multiformats/multiaddr-matcher@^1.0.0", "@multiformats/multiaddr-matcher@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@multiformats/multiaddr-matcher/-/multiaddr-matcher-1.0.1.tgz#ccf82cc7dbff7ea221ad7716f737cdceada2fdb9"
   dependencies:
@@ -1470,12 +1471,6 @@ busboy@^1.6.0:
   resolved "https://registry.yarnpkg.com/busboy/-/busboy-1.6.0.tgz#966ea36a9502e43cdb9146962523b92f531f6893"
   dependencies:
     streamsearch "^1.1.0"
-
-byte-access@^1.0.0, byte-access@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/byte-access/-/byte-access-1.0.1.tgz#84badd99be3671c03f0dd6a039a9c963983724af"
-  dependencies:
-    uint8arraylist "^2.0.0"
 
 cache-base@^1.0.1:
   version "1.0.1"
@@ -4423,9 +4418,9 @@ libp2p-crypto@~0.12.1:
     tweetnacl "^1.0.0"
     webcrypto-shim "github:dignifiedquire/webcrypto-shim#master"
 
-libp2p@^0.46.9:
-  version "0.46.9"
-  resolved "https://registry.yarnpkg.com/libp2p/-/libp2p-0.46.9.tgz#e8d996529e25a67a8f879600b46021ad72aea723"
+libp2p@^0.46.10:
+  version "0.46.10"
+  resolved "https://registry.yarnpkg.com/libp2p/-/libp2p-0.46.10.tgz#99aa59a45c728178be1de40a72049a22a0e23e95"
   dependencies:
     "@achingbrain/nat-port-mapper" "^1.0.9"
     "@libp2p/crypto" "^2.0.3"
@@ -4437,9 +4432,9 @@ libp2p@^0.46.9:
     "@libp2p/peer-collections" "^4.0.3"
     "@libp2p/peer-id" "^3.0.2"
     "@libp2p/peer-id-factory" "^3.0.3"
-    "@libp2p/peer-record" "^6.0.3"
-    "@libp2p/peer-store" "^9.0.3"
-    "@libp2p/utils" "^4.0.2"
+    "@libp2p/peer-record" "^6.0.4"
+    "@libp2p/peer-store" "^9.0.4"
+    "@libp2p/utils" "^4.0.3"
     "@multiformats/mafmt" "^12.1.2"
     "@multiformats/multiaddr" "^12.1.5"
     "@multiformats/multiaddr-matcher" "^1.0.0"
@@ -4626,13 +4621,6 @@ logplease@^1.2.15, logplease@~1.2.14, logplease@~1.2.15:
 long@^5.0.0:
   version "5.2.3"
   resolved "https://registry.yarnpkg.com/long/-/long-5.2.3.tgz#a3ba97f3877cf1d778eccbcb048525ebb77499e1"
-
-longbits@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/longbits/-/longbits-1.1.0.tgz#d6a7b2411dead1cf4b79ee4586816e65c7356ab9"
-  dependencies:
-    byte-access "^1.0.1"
-    uint8arraylist "^2.0.0"
 
 longest@^1.0.1:
   version "1.0.1"
@@ -7302,16 +7290,7 @@ uglifyjs-webpack-plugin@^0.4.6:
     uglify-js "^2.8.29"
     webpack-sources "^1.0.1"
 
-uint8-varint@^1.0.2:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/uint8-varint/-/uint8-varint-1.0.8.tgz#3f6c268e4c1a1ece232f660ec37729faca7cc7d0"
-  dependencies:
-    byte-access "^1.0.0"
-    longbits "^1.1.0"
-    uint8arraylist "^2.0.0"
-    uint8arrays "^4.0.2"
-
-uint8-varint@^2.0.1:
+uint8-varint@^2.0.0, uint8-varint@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/uint8-varint/-/uint8-varint-2.0.1.tgz#e8f73c24974b384f6f0e1cd73c884c5a19e32f53"
   dependencies:
