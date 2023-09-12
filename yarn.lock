@@ -3307,9 +3307,9 @@ ini@~1.3.0:
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.4.tgz#0537cb79daf59b59a1a517dff706c86ec039162e"
 
-interface-datastore@^8.2.0, interface-datastore@^8.2.4:
-  version "8.2.4"
-  resolved "https://registry.yarnpkg.com/interface-datastore/-/interface-datastore-8.2.4.tgz#03ccc00e91bb64d64b7aadd2e15ca4e0d953275a"
+interface-datastore@^8.2.0, interface-datastore@^8.2.5:
+  version "8.2.5"
+  resolved "https://registry.yarnpkg.com/interface-datastore/-/interface-datastore-8.2.5.tgz#d6959a7a89b22652791397b94a5a3367a1533742"
   dependencies:
     interface-store "^5.0.0"
     nanoid "^4.0.0"
