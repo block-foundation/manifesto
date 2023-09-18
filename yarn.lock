@@ -334,9 +334,9 @@
     uint8arraylist "^2.4.3"
     uint8arrays "^4.0.2"
 
-"@libp2p/crypto@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@libp2p/crypto/-/crypto-2.0.3.tgz#f9fa9c6df30508d62c61b5d02b3449e0feddeb5a"
+"@libp2p/crypto@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@libp2p/crypto/-/crypto-2.0.4.tgz#f0c6fcf246c8b6974e4fc92499a0bdce19c3c54c"
   dependencies:
     "@libp2p/interface" "^0.1.2"
     "@noble/curves" "^1.1.0"
@@ -347,12 +347,12 @@
     uint8arraylist "^2.4.3"
     uint8arrays "^4.0.6"
 
-"@libp2p/interface-internal@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@libp2p/interface-internal/-/interface-internal-0.1.4.tgz#12e423ea3dece3aa410bd9919c0e152156135708"
+"@libp2p/interface-internal@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@libp2p/interface-internal/-/interface-internal-0.1.5.tgz#819d15c3b0b2cd25e1be59aacc2c5cb42fe811e3"
   dependencies:
     "@libp2p/interface" "^0.1.2"
-    "@libp2p/peer-collections" "^4.0.3"
+    "@libp2p/peer-collections" "^4.0.4"
     "@multiformats/multiaddr" "^12.1.5"
     uint8arraylist "^2.4.3"
 
@@ -376,11 +376,11 @@
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/@libp2p/interfaces/-/interfaces-3.3.2.tgz#5d8079be845b0960939b5b18880e785a4714465a"
 
-"@libp2p/keychain@^3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@libp2p/keychain/-/keychain-3.0.3.tgz#a3af0a4f904aed934e837a82232eb2f8d6e7eda7"
+"@libp2p/keychain@^3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@libp2p/keychain/-/keychain-3.0.4.tgz#94d04a592ea18d83ebed6d6d8457e9aa8cc72e91"
   dependencies:
-    "@libp2p/crypto" "^2.0.3"
+    "@libp2p/crypto" "^2.0.4"
     "@libp2p/interface" "^0.1.2"
     "@libp2p/logger" "^3.0.2"
     "@libp2p/peer-id" "^3.0.2"
@@ -417,18 +417,18 @@
     uint8arraylist "^2.4.3"
     uint8arrays "^4.0.6"
 
-"@libp2p/peer-collections@^4.0.3":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@libp2p/peer-collections/-/peer-collections-4.0.3.tgz#597eacf013a3a48d774ca1d41332cd5fdf408607"
+"@libp2p/peer-collections@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@libp2p/peer-collections/-/peer-collections-4.0.4.tgz#56163995e6f7b3178e927b92b9c6e894a93e7f12"
   dependencies:
     "@libp2p/interface" "^0.1.2"
     "@libp2p/peer-id" "^3.0.2"
 
-"@libp2p/peer-id-factory@^3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@libp2p/peer-id-factory/-/peer-id-factory-3.0.3.tgz#f4e7e750a4208686917b0819646a651f8accaa59"
+"@libp2p/peer-id-factory@^3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@libp2p/peer-id-factory/-/peer-id-factory-3.0.4.tgz#8dc6890a99fbd4c6f4a295761cc495e214c81369"
   dependencies:
-    "@libp2p/crypto" "^2.0.3"
+    "@libp2p/crypto" "^2.0.4"
     "@libp2p/interface" "^0.1.2"
     "@libp2p/peer-id" "^3.0.2"
     multiformats "^12.0.1"
@@ -444,11 +444,11 @@
     multiformats "^12.0.1"
     uint8arrays "^4.0.6"
 
-"@libp2p/peer-record@^6.0.4":
-  version "6.0.4"
-  resolved "https://registry.yarnpkg.com/@libp2p/peer-record/-/peer-record-6.0.4.tgz#457bc7c132f1d353b70977e44304348d2a25300d"
+"@libp2p/peer-record@^6.0.5":
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/@libp2p/peer-record/-/peer-record-6.0.5.tgz#19e102ecd96b50421ed10e5563e0e5a5d6aeaa7c"
   dependencies:
-    "@libp2p/crypto" "^2.0.3"
+    "@libp2p/crypto" "^2.0.4"
     "@libp2p/interface" "^0.1.2"
     "@libp2p/peer-id" "^3.0.2"
     "@libp2p/utils" "^4.0.3"
@@ -458,16 +458,16 @@
     uint8arraylist "^2.4.3"
     uint8arrays "^4.0.6"
 
-"@libp2p/peer-store@^9.0.4":
-  version "9.0.4"
-  resolved "https://registry.yarnpkg.com/@libp2p/peer-store/-/peer-store-9.0.4.tgz#cbcd646759c7596bfb08ba5c03ce0335d61fee37"
+"@libp2p/peer-store@^9.0.5":
+  version "9.0.5"
+  resolved "https://registry.yarnpkg.com/@libp2p/peer-store/-/peer-store-9.0.5.tgz#1beeda7aac7c186e2663de1f65e0aa1df833595e"
   dependencies:
     "@libp2p/interface" "^0.1.2"
     "@libp2p/logger" "^3.0.2"
-    "@libp2p/peer-collections" "^4.0.3"
+    "@libp2p/peer-collections" "^4.0.4"
     "@libp2p/peer-id" "^3.0.2"
-    "@libp2p/peer-id-factory" "^3.0.3"
-    "@libp2p/peer-record" "^6.0.4"
+    "@libp2p/peer-id-factory" "^3.0.4"
+    "@libp2p/peer-record" "^6.0.5"
     "@multiformats/multiaddr" "^12.1.5"
     interface-datastore "^8.2.0"
     it-all "^3.0.2"
@@ -4418,22 +4418,22 @@ libp2p-crypto@~0.12.1:
     tweetnacl "^1.0.0"
     webcrypto-shim "github:dignifiedquire/webcrypto-shim#master"
 
-libp2p@^0.46.10:
-  version "0.46.10"
-  resolved "https://registry.yarnpkg.com/libp2p/-/libp2p-0.46.10.tgz#99aa59a45c728178be1de40a72049a22a0e23e95"
+libp2p@^0.46.11:
+  version "0.46.11"
+  resolved "https://registry.yarnpkg.com/libp2p/-/libp2p-0.46.11.tgz#298bac21b3e85a982ee82b8368b9955c617e0a68"
   dependencies:
     "@achingbrain/nat-port-mapper" "^1.0.9"
-    "@libp2p/crypto" "^2.0.3"
+    "@libp2p/crypto" "^2.0.4"
     "@libp2p/interface" "^0.1.2"
-    "@libp2p/interface-internal" "^0.1.4"
-    "@libp2p/keychain" "^3.0.3"
+    "@libp2p/interface-internal" "^0.1.5"
+    "@libp2p/keychain" "^3.0.4"
     "@libp2p/logger" "^3.0.2"
     "@libp2p/multistream-select" "^4.0.2"
-    "@libp2p/peer-collections" "^4.0.3"
+    "@libp2p/peer-collections" "^4.0.4"
     "@libp2p/peer-id" "^3.0.2"
-    "@libp2p/peer-id-factory" "^3.0.3"
-    "@libp2p/peer-record" "^6.0.4"
-    "@libp2p/peer-store" "^9.0.4"
+    "@libp2p/peer-id-factory" "^3.0.4"
+    "@libp2p/peer-record" "^6.0.5"
+    "@libp2p/peer-store" "^9.0.5"
     "@libp2p/utils" "^4.0.3"
     "@multiformats/mafmt" "^12.1.2"
     "@multiformats/multiaddr" "^12.1.5"
