@@ -27,7 +27,7 @@
     // "ipfs": "^0.29.3", > helia
     "ipfs-mfs": "git+https://github.com/OpenSourceDemocracy/js-ipfs-mfs.git",
     "ipfs-pubsub-room": "^3.0.0",
-    "libp2p": "^0.46.10",
+    "libp2p": "^0.46.16",
     "orbit-db": "^0.29.0",
     "orbit-db-keystore": "git+https://github.com/OpenSourceDemocracy/orbit-db-keystore.git",
     "style-loader": "~0.23.1",
