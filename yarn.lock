@@ -334,11 +334,11 @@
     uint8arraylist "^2.4.3"
     uint8arrays "^4.0.2"
 
-"@libp2p/crypto@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@libp2p/crypto/-/crypto-2.0.3.tgz#f9fa9c6df30508d62c61b5d02b3449e0feddeb5a"
+"@libp2p/crypto@^2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@libp2p/crypto/-/crypto-2.0.6.tgz#df11673ad79a1875f2e7804e61d5697252f662a0"
   dependencies:
-    "@libp2p/interface" "^0.1.2"
+    "@libp2p/interface" "^0.1.4"
     "@noble/curves" "^1.1.0"
     "@noble/hashes" "^1.3.1"
     multiformats "^12.0.1"
@@ -347,12 +347,12 @@
     uint8arraylist "^2.4.3"
     uint8arrays "^4.0.6"
 
-"@libp2p/interface-internal@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@libp2p/interface-internal/-/interface-internal-0.1.4.tgz#12e423ea3dece3aa410bd9919c0e152156135708"
+"@libp2p/interface-internal@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@libp2p/interface-internal/-/interface-internal-0.1.7.tgz#082beca698467bfdb588c59a5cb677029717f13e"
   dependencies:
-    "@libp2p/interface" "^0.1.2"
-    "@libp2p/peer-collections" "^4.0.3"
+    "@libp2p/interface" "^0.1.4"
+    "@libp2p/peer-collections" "^4.0.6"
     "@multiformats/multiaddr" "^12.1.5"
     uint8arraylist "^2.4.3"
 
@@ -360,9 +360,9 @@
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/@libp2p/interface-keys/-/interface-keys-1.0.8.tgz#2c6b55136113ae7cf78133d3c459cdf0455b29ae"
 
-"@libp2p/interface@^0.1.1", "@libp2p/interface@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@libp2p/interface/-/interface-0.1.2.tgz#4ea5a4fa8bbd46c3fe4c945ff6b8c6d5d41f10b0"
+"@libp2p/interface@^0.1.1", "@libp2p/interface@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@libp2p/interface/-/interface-0.1.4.tgz#fc87a71e5832dfc08a4c96cb17a8d97d7cb0a170"
   dependencies:
     "@multiformats/multiaddr" "^12.1.5"
     abortable-iterator "^5.0.1"
@@ -370,41 +370,42 @@
     it-stream-types "^2.0.1"
     multiformats "^12.0.1"
     p-defer "^4.0.0"
+    race-signal "^1.0.0"
     uint8arraylist "^2.4.3"
 
 "@libp2p/interfaces@^3.2.0":
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/@libp2p/interfaces/-/interfaces-3.3.2.tgz#5d8079be845b0960939b5b18880e785a4714465a"
 
-"@libp2p/keychain@^3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@libp2p/keychain/-/keychain-3.0.3.tgz#a3af0a4f904aed934e837a82232eb2f8d6e7eda7"
+"@libp2p/keychain@^3.0.6":
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/@libp2p/keychain/-/keychain-3.0.6.tgz#1bffa65d2dd76960d65d2d18b7d79ee1e15a84ba"
   dependencies:
-    "@libp2p/crypto" "^2.0.3"
-    "@libp2p/interface" "^0.1.2"
-    "@libp2p/logger" "^3.0.2"
-    "@libp2p/peer-id" "^3.0.2"
+    "@libp2p/crypto" "^2.0.6"
+    "@libp2p/interface" "^0.1.4"
+    "@libp2p/logger" "^3.0.4"
+    "@libp2p/peer-id" "^3.0.4"
     interface-datastore "^8.2.0"
     merge-options "^3.0.4"
     sanitize-filename "^1.6.3"
     uint8arrays "^4.0.6"
 
-"@libp2p/logger@^3.0.0", "@libp2p/logger@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@libp2p/logger/-/logger-3.0.2.tgz#aa507db233c6905692ffaf9f4daba1e6326992c4"
+"@libp2p/logger@^3.0.0", "@libp2p/logger@^3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@libp2p/logger/-/logger-3.0.4.tgz#8435482f92abc23ecbfe5f0b5213cba4416912c6"
   dependencies:
-    "@libp2p/interface" "^0.1.2"
+    "@libp2p/interface" "^0.1.4"
     "@multiformats/multiaddr" "^12.1.5"
     debug "^4.3.4"
     interface-datastore "^8.2.0"
     multiformats "^12.0.1"
 
-"@libp2p/multistream-select@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@libp2p/multistream-select/-/multistream-select-4.0.2.tgz#547ebc682907d1e02f0f3eec311010ebf3b62ec1"
+"@libp2p/multistream-select@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@libp2p/multistream-select/-/multistream-select-4.0.4.tgz#854305dca330e12efb0af834c42bb492a6f0ad92"
   dependencies:
-    "@libp2p/interface" "^0.1.2"
-    "@libp2p/logger" "^3.0.2"
+    "@libp2p/interface" "^0.1.4"
+    "@libp2p/logger" "^3.0.4"
     abortable-iterator "^5.0.1"
     it-first "^3.0.1"
     it-handshake "^4.1.3"
@@ -414,60 +415,61 @@
     it-pushable "^3.2.0"
     it-reader "^6.0.1"
     it-stream-types "^2.0.1"
+    uint8-varint "^2.0.0"
     uint8arraylist "^2.4.3"
     uint8arrays "^4.0.6"
 
-"@libp2p/peer-collections@^4.0.3":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@libp2p/peer-collections/-/peer-collections-4.0.3.tgz#597eacf013a3a48d774ca1d41332cd5fdf408607"
+"@libp2p/peer-collections@^4.0.6":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@libp2p/peer-collections/-/peer-collections-4.0.6.tgz#b1bd27a3e7539471b532169aa4575986026ff553"
   dependencies:
-    "@libp2p/interface" "^0.1.2"
-    "@libp2p/peer-id" "^3.0.2"
+    "@libp2p/interface" "^0.1.4"
+    "@libp2p/peer-id" "^3.0.4"
 
-"@libp2p/peer-id-factory@^3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@libp2p/peer-id-factory/-/peer-id-factory-3.0.3.tgz#f4e7e750a4208686917b0819646a651f8accaa59"
+"@libp2p/peer-id-factory@^3.0.6":
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/@libp2p/peer-id-factory/-/peer-id-factory-3.0.6.tgz#7a9dcfe3f8e421ab52a4f296464b31ff20a262fc"
   dependencies:
-    "@libp2p/crypto" "^2.0.3"
-    "@libp2p/interface" "^0.1.2"
-    "@libp2p/peer-id" "^3.0.2"
+    "@libp2p/crypto" "^2.0.6"
+    "@libp2p/interface" "^0.1.4"
+    "@libp2p/peer-id" "^3.0.4"
     multiformats "^12.0.1"
     protons-runtime "^5.0.0"
     uint8arraylist "^2.4.3"
     uint8arrays "^4.0.6"
 
-"@libp2p/peer-id@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@libp2p/peer-id/-/peer-id-3.0.2.tgz#5ca40a687a513c53744513f0c23a44d291e4399d"
+"@libp2p/peer-id@^3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@libp2p/peer-id/-/peer-id-3.0.4.tgz#a666bc8ded62f86441485d29004186b399b8b7dd"
   dependencies:
-    "@libp2p/interface" "^0.1.2"
+    "@libp2p/interface" "^0.1.4"
     multiformats "^12.0.1"
     uint8arrays "^4.0.6"
 
-"@libp2p/peer-record@^6.0.4":
-  version "6.0.4"
-  resolved "https://registry.yarnpkg.com/@libp2p/peer-record/-/peer-record-6.0.4.tgz#457bc7c132f1d353b70977e44304348d2a25300d"
+"@libp2p/peer-record@^6.0.7":
+  version "6.0.7"
+  resolved "https://registry.yarnpkg.com/@libp2p/peer-record/-/peer-record-6.0.7.tgz#9230f136a0ec728d03c4df4af48fda973c311172"
   dependencies:
-    "@libp2p/crypto" "^2.0.3"
-    "@libp2p/interface" "^0.1.2"
-    "@libp2p/peer-id" "^3.0.2"
-    "@libp2p/utils" "^4.0.3"
+    "@libp2p/crypto" "^2.0.6"
+    "@libp2p/interface" "^0.1.4"
+    "@libp2p/peer-id" "^3.0.4"
+    "@libp2p/utils" "^4.0.5"
     "@multiformats/multiaddr" "^12.1.5"
     protons-runtime "^5.0.0"
     uint8-varint "^2.0.0"
     uint8arraylist "^2.4.3"
     uint8arrays "^4.0.6"
 
-"@libp2p/peer-store@^9.0.4":
-  version "9.0.4"
-  resolved "https://registry.yarnpkg.com/@libp2p/peer-store/-/peer-store-9.0.4.tgz#cbcd646759c7596bfb08ba5c03ce0335d61fee37"
+"@libp2p/peer-store@^9.0.7":
+  version "9.0.7"
+  resolved "https://registry.yarnpkg.com/@libp2p/peer-store/-/peer-store-9.0.7.tgz#c67adf18845b6b88465b52451563c29d8efee9f8"
   dependencies:
-    "@libp2p/interface" "^0.1.2"
-    "@libp2p/logger" "^3.0.2"
-    "@libp2p/peer-collections" "^4.0.3"
-    "@libp2p/peer-id" "^3.0.2"
-    "@libp2p/peer-id-factory" "^3.0.3"
-    "@libp2p/peer-record" "^6.0.4"
+    "@libp2p/interface" "^0.1.4"
+    "@libp2p/logger" "^3.0.4"
+    "@libp2p/peer-collections" "^4.0.6"
+    "@libp2p/peer-id" "^3.0.4"
+    "@libp2p/peer-id-factory" "^3.0.6"
+    "@libp2p/peer-record" "^6.0.7"
     "@multiformats/multiaddr" "^12.1.5"
     interface-datastore "^8.2.0"
     it-all "^3.0.2"
@@ -477,13 +479,13 @@
     uint8arraylist "^2.4.3"
     uint8arrays "^4.0.6"
 
-"@libp2p/utils@^4.0.3":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@libp2p/utils/-/utils-4.0.3.tgz#e27e46930fd0bf72fc9344127194dbff90c25d45"
+"@libp2p/utils@^4.0.5":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@libp2p/utils/-/utils-4.0.5.tgz#6e96a20c20b21e7a15fc615b466259c94b940c5d"
   dependencies:
     "@chainsafe/is-ip" "^2.0.2"
-    "@libp2p/interface" "^0.1.2"
-    "@libp2p/logger" "^3.0.2"
+    "@libp2p/interface" "^0.1.4"
+    "@libp2p/logger" "^3.0.4"
     "@multiformats/multiaddr" "^12.1.5"
     "@multiformats/multiaddr-matcher" "^1.0.1"
     is-loopback-addr "^2.0.1"
@@ -4420,29 +4422,30 @@ libp2p-crypto@~0.12.1:
     tweetnacl "^1.0.0"
     webcrypto-shim "github:dignifiedquire/webcrypto-shim#master"
 
-libp2p@^0.46.10:
-  version "0.46.10"
-  resolved "https://registry.yarnpkg.com/libp2p/-/libp2p-0.46.10.tgz#99aa59a45c728178be1de40a72049a22a0e23e95"
+libp2p@^0.46.16:
+  version "0.46.16"
+  resolved "https://registry.yarnpkg.com/libp2p/-/libp2p-0.46.16.tgz#b5269ab243bfbfa3f26959a204653f75b184748c"
   dependencies:
     "@achingbrain/nat-port-mapper" "^1.0.9"
-    "@libp2p/crypto" "^2.0.3"
-    "@libp2p/interface" "^0.1.2"
-    "@libp2p/interface-internal" "^0.1.4"
-    "@libp2p/keychain" "^3.0.3"
-    "@libp2p/logger" "^3.0.2"
-    "@libp2p/multistream-select" "^4.0.2"
-    "@libp2p/peer-collections" "^4.0.3"
-    "@libp2p/peer-id" "^3.0.2"
-    "@libp2p/peer-id-factory" "^3.0.3"
-    "@libp2p/peer-record" "^6.0.4"
-    "@libp2p/peer-store" "^9.0.4"
-    "@libp2p/utils" "^4.0.3"
+    "@libp2p/crypto" "^2.0.6"
+    "@libp2p/interface" "^0.1.4"
+    "@libp2p/interface-internal" "^0.1.7"
+    "@libp2p/keychain" "^3.0.6"
+    "@libp2p/logger" "^3.0.4"
+    "@libp2p/multistream-select" "^4.0.4"
+    "@libp2p/peer-collections" "^4.0.6"
+    "@libp2p/peer-id" "^3.0.4"
+    "@libp2p/peer-id-factory" "^3.0.6"
+    "@libp2p/peer-record" "^6.0.7"
+    "@libp2p/peer-store" "^9.0.7"
+    "@libp2p/utils" "^4.0.5"
     "@multiformats/mafmt" "^12.1.2"
     "@multiformats/multiaddr" "^12.1.5"
     "@multiformats/multiaddr-matcher" "^1.0.0"
     any-signal "^4.1.1"
     datastore-core "^9.0.1"
     delay "^6.0.0"
+    events "^3.3.0"
     interface-datastore "^8.2.0"
     it-all "^3.0.2"
     it-drain "^3.0.2"
@@ -6282,6 +6285,10 @@ querystring@0.2.0:
 queue-microtask@^1.2.2, queue-microtask@^1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
+
+race-signal@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/race-signal/-/race-signal-1.0.1.tgz#bde92c524f8a3767335f19606e2ca60be0af7180"
 
 randombytes@^2.0.0, randombytes@^2.0.1:
   version "2.0.3"
