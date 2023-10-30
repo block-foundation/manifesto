@@ -43,7 +43,7 @@
     "vuex-typex": "^3.0.1"
   },
   "devDependencies": {
-    "@mdi/font": "^7.2.96",
+    "@mdi/font": "^7.3.67",
     "bs58": "^5.0.0",
     "chai": "^4.3.8",
     "css-loader": "~0.28.11",
