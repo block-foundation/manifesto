@@ -17,7 +17,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@types/filesystem": "0.0.33",
+    "@types/filesystem": "0.0.35",
     "@types/ipfs": "git+https://github.com/survirtual/types-ipfs.git",
     "@types/node": "^20.8.9",
     "@types/orbit-db": "git+https://github.com/willemneal/types-orbit-db.git",
