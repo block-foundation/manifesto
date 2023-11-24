@@ -19,7 +19,7 @@
   "dependencies": {
     "@types/filesystem": "0.0.33",
     "@types/ipfs": "git+https://github.com/survirtual/types-ipfs.git",
-    "@types/node": "^20.8.9",
+    "@types/node": "^20.9.5",
     "@types/orbit-db": "git+https://github.com/willemneal/types-orbit-db.git",
     "@zxing/library": "^0.20.0",
     "file-loader": "^6.2.0",
