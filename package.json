@@ -31,7 +31,7 @@
     "orbit-db": "^0.29.0",
     "orbit-db-keystore": "git+https://github.com/OpenSourceDemocracy/orbit-db-keystore.git",
     "style-loader": "~0.23.1",
-    "stylescape": "^0.0.11",
+    "stylescape": "^0.0.17",
     "url-loader": "^1.0.1",
     "v-treeview": "^0.2.1",
     "vue-compile-typescript": "0.0.1",
