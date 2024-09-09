@@ -3226,6 +3226,10 @@ https-browserify@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-0.0.1.tgz#3f91365cabe60b77ed0ebba24b454e3e09d95a82"
 
+hue.gl@^0.0.23:
+  version "0.0.23"
+  resolved "https://registry.yarnpkg.com/hue.gl/-/hue.gl-0.0.23.tgz#e8d09d76b2c83ea6e77810b05f831bc08948eb4c"
+
 human-signals@^4.3.0:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-4.3.1.tgz#ab7f811e851fca97ffbd2c1fe9a958964de321b2"
@@ -3236,6 +3240,10 @@ hyperdiff@^2.0.5:
   dependencies:
     debug-logfmt "~1.0.4"
     lodash "~4.17.21"
+
+icon.gl@^0.0.20:
+  version "0.0.20"
+  resolved "https://registry.yarnpkg.com/icon.gl/-/icon.gl-0.0.20.tgz#ae37a990459ca66db2fa5c58e2bd0ade42453e8a"
 
 icss-replace-symbols@^1.1.0:
   version "1.1.0"
@@ -5607,6 +5615,10 @@ p-whilst@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/p-whilst/-/p-whilst-3.1.0.tgz#350187e00981db21f0383551b705ce16d1bd65a0"
 
+page.gl@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/page.gl/-/page.gl-0.0.3.tgz#d0e7ef394698bc588de6bfbe3aeb0b511e7e1331"
+
 pako@~0.2.0:
   version "0.2.9"
   resolved "https://registry.yarnpkg.com/pako/-/pako-0.2.9.tgz#f3f7522f4ef782348da8161bad9ecfd51bf83a75"
@@ -7033,9 +7045,14 @@ style-loader@~0.23.1:
     loader-utils "^1.1.0"
     schema-utils "^1.0.0"
 
-stylescape@^0.0.11:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/stylescape/-/stylescape-0.0.11.tgz#595d1a018280452f405760b381bc1f7e4d23e1be"
+stylescape@^0.0.31:
+  version "0.0.31"
+  resolved "https://registry.yarnpkg.com/stylescape/-/stylescape-0.0.31.tgz#e30539eb8954e08542ccea84b44cea81ff2f44c6"
+  dependencies:
+    hue.gl "^0.0.23"
+    icon.gl "^0.0.20"
+    page.gl "^0.0.3"
+    unit.gl "^0.0.39"
 
 stylus-loader@~3.0.2:
   version "3.0.2"
@@ -7358,6 +7375,10 @@ uniqid@^4.0.0:
 uniqs@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/uniqs/-/uniqs-2.0.0.tgz#ffede4b36b25290696e6e165d4a59edb998e6b02"
+
+unit.gl@^0.0.39:
+  version "0.0.39"
+  resolved "https://registry.yarnpkg.com/unit.gl/-/unit.gl-0.0.39.tgz#1daa0edf02087e9c57813be68fa99aabc695c84c"
 
 unset-value@^1.0.0:
   version "1.0.0"
